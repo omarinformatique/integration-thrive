@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Room homepage</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <!--------------------------------- Les div de la pages (5 items)👍 ------------------------------------>
+
+<div class="grid">
+  
+<!--------------------------------------div hero----------------------------------------------------->
+
+   <div class="grid-item hero" style="background-image: url(./images/desktop-image-hero-1.jpg);">
+        
+        <header>
+                <a href="#" class="logo">room</a>
+                <div class="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <nav>
+                    <a href="#">home</a>
+                    <a href="#">shop</a>
+                    <a onclick="window.location.href = './video.html';">video</a>
+                    <a  onclick="window.location.href = './formulaire_contact.html';">contact</a>
+                    <a href="#" class="close">&times;</a>
+                </nav>
+        </header>
+
+         <div class="slider">
+                <div class="slide-left">
+                    <button aria-label="slide-left"><img src="./images/icon-angle-left.svg" alt="left"></button>
+                </div>
+                <div class="slide-right">
+                    <button aria-label="slide-right"><img src="./images/icon-angle-right.svg" alt="right"></button>
+                </div>
+         </div>
+
+
+   </div>
+<!--------------------------------------div shop(1.2.3)-------------------------------------------------->
+
+   <div class="grid-item shop">
+            <div class="shop-item shop-item-1" style="display:block;">
+                <h1>Discover innovative ways to decorate</h1>
+                <p>
+                    We provide unmatched quality, comfort, and style for property owners across the country.
+                    Our experts combine form and function in bringing your vision to life. Create a room in your
+                    own style with our collection and make your property a reflection of you and what you love.
+                </p>
+            </div>
+            <div class="shop-item shop-item-2">
+                <h1> We are available all across the globe
+                </h1>
+                <p>
+                    With stores all over the world, it's easy for you to find furniture for your home or place of
+                    business.
+                    Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+                    store locator. Any questions? Don't hesitate to contact us today.
+                </p>
+            </div>
+            <div class="shop-item shop-item-3">
+                <h1> Manufactured with the best materials
+                </h1>
+                <p>
+                    Our modern furniture store provide a high level of quality. Our company has invested in advanced
+                    technology
+                    to ensure that every product is made as perfect and as consistent as possible. With three decades of
+                    experience in this industry, we understand what customers want for their home and office.
+                </p>
+            </div>
+            <a href="#">Shop now <img src="./images/icon-arrow.svg" alt="" class="nb"></a>
+        </div>
+
+<!--------------------------------------div left-------------------------------------------------->
+        <div class="grid-item featured featured-left">
+            <img src="./images/image-about-dark.jpg" alt="">
+        </div>
+
+<!------------------------------------div about(video)-------------------------------------------------->
+        <div class="grid-item about">
+            <h1>About our furniture</h1>
+            <p>
+                Our multifunctional collection blends design and function to suit your individual taste.
+                Make each room unique, or pick a cohesive theme that best express your interests and what
+                inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+                or anything in between. Product specialists are available to help you create your dream space.
+            </p>
+        </div>
+<!--------------------------------------div right-------------------------------------------------->
+
+        <div class="grid-item featured featured-right">
+            <img src="./images/image-about-light.jpg" alt="">
+        </div>
+
+</div>
+
+
+<!------------------------------------------Footer------------------------------------------->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Omar SEFROUNE</a>.
+  </div>
+<!---------------------------------------------javascript---------------------------------------------->
+<script src="app.js"></script>
+</body>
+</html>
